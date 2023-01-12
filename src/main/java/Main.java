@@ -1,8 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        BonusService service = new BonusService();
-        long bonus = service.calculate( 1_000, true);
+        BonusService service = new BonusService(); // Сервис расчета бонусов
+        long bonus = service.calculate( 99, false);
         System.out.println(bonus);
 
 
