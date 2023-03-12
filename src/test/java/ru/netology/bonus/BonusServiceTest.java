@@ -13,7 +13,7 @@ public class BonusServiceTest {
     public void testCsvFilesBonus(long amount, boolean registered, long exepted) {
         BonusService service = new BonusService();
         long actual = service.calculate(amount, registered);
-        assertEquals(exepted, actual);
+        wassertEquals(exepted, actual);
     }
 
 //    @org.junit.jupiter.api.Test
